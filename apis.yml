@@ -1,8 +1,28 @@
 aid: flow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flow.png
 name: Flow
-description: Flow is a company surfaced as a portfolio company of a16z, lightspeed-venture-partners, seedcamp,
-  version-one-ventures and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: 'Flow (Flow Engineering, operated by TRC Space Ltd) is a requirements-management
+  platform built for hardware and systems engineering teams. It centers on a Systems
+  Graph that connects requirements, design artifacts, tests, and components, with AI
+  agents that continuously align CAD, simulation, code, and test — automating impact
+  analysis, budget tracking, and compliance checking. Flow supports branching and
+  merging of requirement baselines, iterative build gates, and an integration ecosystem
+  spanning CAD (Onshape, Fusion 360, Siemens NX), simulation (Ansys), and dev tools
+  (GitHub, GitLab, Jira, Linear, Slack, Notion, Confluence). It is SOC 2 Type II,
+  NIST 800-171, and ITAR/EAR aligned with self-hosted and AWS GovCloud options. A
+  first-party API exists (referenced in the changelog) but is gated behind login with
+  no publicly published OpenAPI or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/flow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Requirements Management
+- Systems Engineering
+- Hardware Engineering
+- Product Lifecycle Management
+- Engineering
+- Compliance
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +53,40 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://flowengineering.com
+  url: https://flowengineering.com
+- type: Documentation
+  url: https://flowengineering.com/handbook/iterative-systems-engineering/volume-1
+- type: Pricing
+  url: https://flowengineering.com/pricing
+- type: SignUp
+  url: https://app.flowengineering.com/sign-in
+- type: Login
+  url: https://app.flowengineering.com/sign-in
+- type: Support
+  url: mailto:contact@flowengineering.com
+- type: Integrations
+  url: https://flowengineering.com/integrations
+- type: ChangeLog
+  url: https://flow-engineering.productlane.com/changelog
+- type: ChangeLog
+  name: Flow changelog (harvested)
+  url: changelog/flow-changelog.yml
+- type: PrivacyPolicy
+  url: https://flowengineering.com/privacy-and-cookie-policy
+- type: Careers
+  url: https://flowengineering.com/careers
+- type: Compliance
+  url: https://flowengineering.com/security
+- type: TrustCenter
+  url: security/flow-trust-center.yml
+- type: DomainSecurity
+  url: security/flow-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/flowengineer/
+- type: Twitter
+  url: https://x.com/Flow_Engineer
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

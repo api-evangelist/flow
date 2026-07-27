@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.flowengineering.com/security
+url: https://www.flowengineering.com/security
+certifications:
+- SOC 2 Type II
+- NIST 800-171
+- ITAR/EAR
+- GDPR
+evidence:
+- source: https://www.flowengineering.com/security
+  keywords:
+  - soc 2 type ii
+  - nist 800-171
+  - itar ear aligned
+  - gdpr
+notes: 'Certifications read verbatim from the /security page: SOC 2 Type II, NIST
+  800-171 controlled, ITAR/EAR aligned, GDPR compliant. Also states third-party
+  penetration testing on every release, SAML SSO + SCIM, self-hosted/data-residency
+  options, and ITAR AWS GovCloud on Enterprise.'

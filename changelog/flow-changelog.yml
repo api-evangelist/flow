@@ -1,0 +1,42 @@
+generated: '2026-07-19'
+method: searched
+source: https://flow-engineering.productlane.com/changelog
+scheme: date
+current: '2026-03-16'
+docs: https://flow-engineering.productlane.com/changelog
+entries:
+- date: '2026-03-16'
+  title: Sort Test Cases and Systems
+  highlights:
+  - Import test steps and export verification methods to CSV
+  - New API methods for interfaces and documents
+  breaking: false
+- date: '2026-02-27'
+  title: Share Systems Externally
+  highlights:
+  - External collaborators can view designs
+  - Stage reviewers for ARP-4754 compliance
+  - Jira integration for test runs
+  breaking: false
+- date: '2026-02-17'
+  title: Execution Tab for Test Plan
+  highlights:
+  - Navigate test execution
+  - Filter test cases by requirement and configuration
+  breaking: false
+- date: '2026-02-05'
+  title: Unified Testing View
+  highlights:
+  - Organize test cases by test plans with hierarchical structuring
+  - Interfaces CSV export
+  breaking: false
+- date: '2026-01-28'
+  title: Iterations
+  highlights:
+  - Parallel design and verification across build gates
+  - DOCX report exports
+  - Current User filtering
+  breaking: false
+notes: Hosted changelog on Productlane; date-based, actively maintained. Entries
+  confirm a first-party API (interfaces/documents methods) though no public OpenAPI
+  or developer docs are published.
