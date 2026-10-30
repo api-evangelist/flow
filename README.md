@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Flow is a company surfaced as a portfolio company of a16z, lightspeed-venture-partners, seedcamp, version-one-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Flow (Flow Engineering, operated by TRC Space Ltd) is a requirements-management platform built for hardware and systems engineering teams. It centers on a Systems Graph that connects requirements, design artifacts, tests, and components, with AI agents that continuously align CAD, simulation, code, and test — automating impact analysis, budget tracking, and compliance checking. Flow supports branching and merging of requirement baselines, iterative build gates, and an integration ecosystem spanning CAD (Onshape, Fusion 360, Siemens NX), simulation (Ansys), and dev tools (GitHub, GitLab, Jira, Linear, Slack, Notion, Confluence). It is SOC 2 Type II, NIST 800-171, and ITAR/EAR aligned with self-hosted and AWS GovCloud options. A first-party API exists (referenced in the changelog) but is gated behind login with no publicly published OpenAPI or developer documentation.
 
-Backed by: a16z, lightspeed-venture-partners, seedcamp, version-one-ventures — http://flowengineering.com
+**Areas:** Company · Requirements Management · Systems Engineering · Hardware Engineering · PLM · Engineering · Compliance · AI Agents
+
+## Flow on APIs.io
+
+Everything profiled for Flow is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flow/](https://apis.io/providers/flow/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flow Domain Security](https://apis.io/security/flow/flow-domain-security/)
+- [Flow Trust Center](https://apis.io/security/flow/flow-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://flowengineering.com)
+- [Documentation](https://flowengineering.com/handbook/iterative-systems-engineering/volume-1)
+- [Pricing](https://flowengineering.com/pricing)
+- [Sign up](https://app.flowengineering.com/sign-in)
+- [Changelog](https://flow-engineering.productlane.com/changelog)
+- [Blog](https://www.flowengineering.com/blog)
+- [Compliance](https://flowengineering.com/security)
+- [Privacy policy](https://flowengineering.com/privacy-and-cookie-policy)
+
+## API Evangelist rating
+
+**Kin Score 20.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 50.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flow/](https://apis.io/providers/flow/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flow: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flow/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
